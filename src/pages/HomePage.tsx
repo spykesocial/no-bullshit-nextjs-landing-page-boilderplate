@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import HeroHeading from "@/sections/hero-heading/HeroHeading";
 import styled from "styled-components";
 import HeroSubheading from "../../boilerplate";
