@@ -5,7 +5,7 @@ import { breakpoint } from "styled-components-breakpoint";
 
 interface Props {}
 
-const HeroSubheading: React.FC<Props> = (props) => {
+const HeroHeading: React.FC<Props> = (props) => {
   return (
     <Container>
       <h1>Whats good my niggas</h1>
@@ -13,10 +13,10 @@ const HeroSubheading: React.FC<Props> = (props) => {
   );
 };
 
-export default HeroSubheading;
+export default HeroHeading;
 
 const Container = styled.div`
-  background: pink;
+  background: white;
   display: flex;
   height: 100vh;
   width: 100vw;
