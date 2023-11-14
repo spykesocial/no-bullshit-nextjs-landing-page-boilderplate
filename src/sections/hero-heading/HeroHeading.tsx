@@ -8,7 +8,7 @@ interface Props {}
 const HeroHeading: React.FC<Props> = (props) => {
   return (
     <Container>
-      <h1>Whats good my niggas</h1>
+      <h1 style={{ color: "black" }}>Whats good my niggas</h1>
     </Container>
   );
 };
