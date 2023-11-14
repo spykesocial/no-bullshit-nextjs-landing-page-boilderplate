@@ -1,6 +1,6 @@
 import HeroHeading from "@/sections/hero-heading/HeroHeading";
+import HeroSubHeading from "@/sections/hero-sub-heading/HeroSubheading";
 import styled from "styled-components";
-import HeroSubheading from "../../boilerplate";
 
 export default function HomePage() {
   return (
@@ -10,7 +10,7 @@ export default function HomePage() {
       </ScrollSnapElement>
 
       <ScrollSnapElement>
-        <HeroSubheading />
+        <HeroSubHeading />
       </ScrollSnapElement>
     </Container>
   );
