@@ -5,21 +5,13 @@ import { breakpoint } from "styled-components-breakpoint";
 
 interface Props {}
 
-const HeroSubheading: React.FC<Props> = (props) => {
-  return (
-    <Container>
-      <h1>Whats good my niggas</h1>
-    </Container>
-  );
+const boilerplate: React.FC<Props> = (props) => {
+  return <Container></Container>;
 };
 
-export default HeroSubheading;
+export default boilerplate;
 
-const Container = styled.div`
-  background: pink;
-  display: flex;
-  height: 100vh;
-`;
+const Container = styled.div``;
 
 // //0px
 // ${breakpoint('minimum')`
