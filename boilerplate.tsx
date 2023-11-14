@@ -19,7 +19,6 @@ const Container = styled.div`
   background: pink;
   display: flex;
   height: 100vh;
-  width: 100vw;
 `;
 
 // //0px
